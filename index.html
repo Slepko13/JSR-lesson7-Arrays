@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    button {
+        margin: 10px;
+    }
+</style>
+
+<body>
+    <button onclick="twoArrays()">Two arrays</button>
+    <button onclick="sum()">Sum</button>
+    <button onclick="object()">Object</button>
+    <div style="height : 20px"></div>
+    <button onclick="animalInit()">Animal</button>
+    <button onclick="figure()">Figure</button>
+    <div style="height : 20px"></div>
+    <button onclick="doShoppingList()">Shopping list</button>
+    <div id="list" style="display: none;">
+        <button onclick="totalList.call(shoppingList)">Total list</button>
+        <button onclick="buyProduct.call(shoppingList)">Buy product</button>
+        <button onclick="countTotalPrice.call(shoppingList)">Total price</button>
+        <button onclick="addProductCount.call(shoppingList)">Add quantity</button>
+        <button onclick="removeProductCount.call(shoppingList)">remove quantity</button>
+    </div>
+    <div style="height : 20px"></div>
+    <button onclick="showButtons()">Collection</button>
+    <div id="collection" style="display: none;">
+        <button onclick="showAdminName.call(collection)">All admins</button>
+        <button onclick="showAverageAge.call(collection)">Average age</button>
+        <button onclick="showUniqueHobbies.call(collection)">Unique hobbies</button>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
